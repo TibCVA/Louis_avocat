@@ -1,1 +1,191 @@
-test
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Prépa Déonto 98‑1 — Révision iPhone</title>
+
+  <!-- iOS / PWA friendly metas (non intrusifs) -->
+  <meta name="theme-color" content="#0A84FF"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="title-row">
+      <h1>Prépa déonto <span class="pill">98‑1</span></h1>
+      <div class="header-actions">
+        <button id="btnExport" class="icon-btn" title="Exporter/partager la progression" aria-label="Exporter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 16V4m0 0l-4 4m4-4l4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4 20h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="progress-strip">
+      <div class="progress-info">
+        <div id="progressRing" class="ring" role="img" aria-label="Progression globale" data-label="0"></div>
+        <div class="kpis">
+          <div class="kpi"><span id="kpiMastered">0</span><small>maîtrisées</small></div>
+          <div class="kpi"><span id="kpiReview">0</span><small>à revoir</small></div>
+          <div class="kpi"><span id="kpiNew">0</span><small>non vues</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tips" id="tips">
+      <span class="tip">⎵ (espace) : afficher</span>
+      <span class="tip">A : à revoir</span>
+      <span class="tip">M : maîtrisée</span>
+      <span class="tip">F : favori</span>
+      <button class="icon-btn small" id="btnTipsClose" aria-label="Masquer l’astuce">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab active" role="tab" aria-selected="true" aria-controls="view-reviser" id="tab-reviser">Réviser</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="view-liste" id="tab-liste">Liste</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="view-stats" id="tab-stats">Progression</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Réviser -->
+    <section id="view-reviser" role="tabpanel" aria-labelledby="tab-reviser">
+      <div class="controls">
+        <div class="segmented" role="group" aria-label="Filtre jeux de cartes">
+          <input type="radio" name="filter" id="f-all" value="all" checked>
+          <label for="f-all">Toutes</label>
+          <input type="radio" name="filter" id="f-review" value="review">
+          <label for="f-review">À revoir</label>
+          <input type="radio" name="filter" id="f-new" value="new">
+          <label for="f-new">Non vues</label>
+          <input type="radio" name="filter" id="f-mastered" value="mastered">
+          <label for="f-mastered">Maîtrisées</label>
+        </div>
+
+        <div class="toggles">
+          <label class="switch" title="Mode aléatoire">
+            <input id="toggleShuffle" type="checkbox" checked>
+            <span class="slider"></span>
+            <span class="switch-label">Aléatoire</span>
+          </label>
+          <label class="switch" title="Avancer automatiquement après le marquage">
+            <input id="toggleAutoNext" type="checkbox">
+            <span class="slider"></span>
+            <span class="switch-label">Auto‑suivant</span>
+          </label>
+          <label class="switch" title="Empêcher la mise en veille pendant la révision">
+            <input id="toggleNoSleep" type="checkbox">
+            <span class="slider"></span>
+            <span class="switch-label">Anti‑veille</span>
+          </label>
+        </div>
+      </div>
+
+      <article id="card" class="card" aria-live="polite">
+        <div class="card-header">
+          <span id="badgeIndex" class="badge">1 / 1</span>
+          <div class="header-right">
+            <button id="btnSpeak" class="icon-btn" title="Écouter la réponse" aria-label="Écouter">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 10v4h3l4 4V6L7 10H4z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+                <path d="M15 9a4 4 0 010 6M17 7a7 7 0 010 10" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              </svg>
+            </button>
+            <button id="btnFav" class="icon-btn" title="Ajouter aux favoris" aria-pressed="false" aria-label="Favori">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      stroke="currentColor" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <h2 id="qText" class="question">Chargement…</h2>
+
+        <div id="aBlock" class="answer hidden">
+          <h3>Réponse</h3>
+          <p id="aText"></p>
+          <details id="dDetails" class="details">
+            <summary>Précisions</summary>
+            <ul id="pList"></ul>
+          </details>
+        </div>
+
+        <div class="card-actions">
+          <button id="btnShow" class="btn primary">Afficher la réponse</button>
+          <div class="row-cta hidden" id="rowCta">
+            <button id="btnAgain" class="btn ghost">À revoir</button>
+            <button id="btnGood" class="btn primary">Je maîtrise</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="footer-actions">
+        <button id="btnPrev" class="btn light">Précédent</button>
+        <button id="btnNext" class="btn light">Suivant</button>
+      </div>
+
+      <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+      <canvas id="fx" class="fx" aria-hidden="true"></canvas>
+    </section>
+
+    <!-- Liste -->
+    <section id="view-liste" role="tabpanel" aria-labelledby="tab-liste" hidden>
+      <div class="list-toolbar">
+        <input id="search" type="search" placeholder="Rechercher (mots‑clés, bases normatives…)" aria-label="Recherche">
+        <div class="segmented small" role="group" aria-label="Filtre liste">
+          <input type="radio" name="lfilter" id="lf-all" value="all" checked>
+          <label for="lf-all">Toutes</label>
+          <input type="radio" name="lfilter" id="lf-fav" value="fav">
+          <label for="lf-fav">Favoris</label>
+          <input type="radio" name="lfilter" id="lf-review" value="review">
+          <label for="lf-review">À revoir</label>
+          <input type="radio" name="lfilter" id="lf-mastered" value="mastered">
+          <label for="lf-mastered">Maîtrisées</label>
+        </div>
+      </div>
+      <ul id="list" class="list"></ul>
+    </section>
+
+    <!-- Stats -->
+    <section id="view-stats" role="tabpanel" aria-labelledby="tab-stats" hidden>
+      <div class="stats">
+        <div class="ring big" id="statsRing" data-label="0"></div>
+        <div class="stats-grid">
+          <div class="stat"><div class="label">Maîtrisées</div><div class="value" id="sMastered">0</div></div>
+          <div class="stat"><div class="label">À revoir</div><div class="value" id="sReview">0</div></div>
+          <div class="stat"><div class="label">Non vues</div><div class="value" id="sNew">0</div></div>
+          <div class="stat"><div class="label">Total</div><div class="value" id="sTotal">0</div></div>
+        </div>
+
+        <div class="prefs">
+          <h3>Préférences & données</h3>
+          <div class="actions">
+            <button id="btnImport" class="btn light">Importer progression</button>
+            <input id="fileImport" type="file" accept="application/json" hidden />
+            <button id="btnReset" class="btn ghost">Réinitialiser</button>
+          </div>
+          <p class="note">Toutes les données (progression, favoris, préférences) sont stockées <strong>localement</strong> dans ce navigateur. L’export crée un fichier JSON partageable.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <small>&copy; 2025 • Prépa déonto 98‑1 • App locale • Conçue pour iPhone</small>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+  <noscript>Activez JavaScript pour utiliser l’application.</noscript>
+</body>
+</html>
