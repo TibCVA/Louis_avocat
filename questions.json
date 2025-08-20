@@ -1,0 +1,492 @@
+[
+  {
+    "question": "Quel est l’objet de l’examen prévu à l’article 98-1 pour l’accès dérogatoire à la profession ?",
+    "reponse": "Une interrogation orale portant sur la déontologie et la réglementation professionnelle de l’avocat.",
+    "points_specifiques": [
+      "Base : Arrêté du 30/04/2012, art. 3",
+      "Candidats visés : personnes de l’art. 98-1 du décret 1991"
+    ]
+  },
+  {
+    "question": "Quelle note minimale faut‑il obtenir à l’examen de déontologie (98‑1) ?",
+    "reponse": "Le candidat est déclaré admis s’il obtient au moins 12/20.",
+    "points_specifiques": [
+      "Base : Arrêté du 30/04/2012, art. 4",
+      "Seuil unique d’admission"
+    ]
+  },
+  {
+    "question": "Combien de présentations à l’examen sont autorisées ?",
+    "reponse": "Nul ne peut se présenter plus de trois fois.",
+    "points_specifiques": [
+      "Base : Décret 1991, disposition précisant la limite de 3 présentations pour l’examen concerné",
+      "Entrée en vigueur des dernières modifications : 1er janvier 2024"
+    ]
+  },
+  {
+    "question": "Quel délai de convocation est prévu pour l’épreuve ?",
+    "reponse": "Les candidats reçoivent leur convocation au moins un mois avant la date de l’épreuve.",
+    "points_specifiques": [
+      "Base : Arrêté du 30/04/2012, art. 2",
+      "Convocation écrite par le secrétariat de l’EDA"
+    ]
+  },
+  {
+    "question": "Quelles sont les sources normatives que doit maîtriser le candidat ?",
+    "reponse": "Le RIN du CNB, le décret n°91‑1197 du 27 novembre 1991, et l’arrêté du 30 avril 2012 fixant le programme et les modalités de l’examen ; le Code de déontologie des avocats européens (annexé au RIN) est également pertinent.",
+    "points_specifiques": [
+      "RIN (version consolidée CNB)",
+      "Décret n°91‑1197 (Légifrance)",
+      "Arrêté 30/04/2012 (Légifrance)",
+      "CCBE annexé au RIN (Titre VI‑VII)"
+    ]
+  },
+  {
+    "question": "Quels sont les principes essentiels énoncés par le RIN ?",
+    "reponse": "L’avocat exerce avec dignité, conscience, indépendance, probité et humanité, dans le respect de son serment, et respecte notamment les principes d’honneur, de loyauté, d’égalité et de non‑discrimination.",
+    "points_specifiques": [
+      "Base : RIN, art. 1.3",
+      "Portée : s’applique « en toutes circonstances »"
+    ]
+  },
+  {
+    "question": "Qu’implique l’indépendance de l’avocat ?",
+    "reponse": "L’avocat doit rester libre de toute pression, notamment de ses propres intérêts ou d’influences extérieures, condition de la confiance en la justice.",
+    "points_specifiques": [
+      "Base : CCBE (annexé au RIN), 21.2.1",
+      "Indépendance requise en conseil comme en défense"
+    ]
+  },
+  {
+    "question": "Qu’est‑ce que le devoir de loyauté à l’égard des confrères et des parties ?",
+    "reponse": "La loyauté impose un comportement honnête et confraternel, sans nuire aux intérêts du client, et exclut toute manœuvre déloyale.",
+    "points_specifiques": [
+      "Base : RIN, art. 1.3 (loyauté, honneur)",
+      "CCBE 21.5.1 (confraternité)"
+    ]
+  },
+  {
+    "question": "Quelle est l’étendue du secret professionnel de l’avocat ?",
+    "reponse": "Le secret est d’ordre public, général, absolu et illimité dans le temps ; il couvre, en toute matière, consultations, correspondances avec le client et entre avocats (sauf « officielle »), pièces du dossier, noms des clients et agenda, ainsi que les maniements de fonds.",
+    "points_specifiques": [
+      "Base : RIN, art. 2.2 (liste non limitative)",
+      "Référence légale : loi 71‑1130, art. 66‑5 (cité par RIN)"
+    ]
+  },
+  {
+    "question": "L’avocat peut‑il lever le secret pour sa propre défense ?",
+    "reponse": "Oui, uniquement dans la stricte mesure des exigences de sa propre défense devant toute juridiction.",
+    "points_specifiques": [
+      "Base : RIN, art. 2.2 (réserve pour la défense de l’avocat)",
+      "Secret reste la règle"
+    ]
+  },
+  {
+    "question": "Quelles sont les correspondances non couvertes par la confidentialité entre avocats ?",
+    "reponse": "Celles portant la mention « officielle » et celles équivalant à un acte de procédure ou ne renvoyant à aucun écrit ou élément antérieur confidentiel.",
+    "points_specifiques": [
+      "Base : RIN, art. 3.2",
+      "Toutes les autres correspondances sont par nature confidentielles (art. 3.1)"
+    ]
+  },
+  {
+    "question": "Comment sécuriser les échanges avec un avocat hors Union européenne ?",
+    "reponse": "Vérifier l’existence de règles de confidentialité équivalentes ; à défaut, conclure un accord de confidentialité ou obtenir l’accord du client acceptant le risque d’échanges non confidentiels.",
+    "points_specifiques": [
+      "Base : RIN, art. 3.3",
+      "Diligences préalables obligatoires"
+    ]
+  },
+  {
+    "question": "Que recouvre le secret de l’enquête et de l’instruction pour l’avocat pénaliste ?",
+    "reponse": "Interdiction de communiquer des renseignements extraits du dossier ou de publier des pièces d’une enquête ou information en cours, sauf exercice des droits de la défense.",
+    "points_specifiques": [
+      "Base : RIN, art. 2 bis",
+      "Renvoi : CPP art. 11 ; C. pénal art. 434‑7‑2"
+    ]
+  },
+  {
+    "question": "Quand y a‑t‑il conflit d’intérêts ?",
+    "reponse": "Lorsqu’il existe un conflit entre les intérêts de deux clients, un risque sérieux d’un tel conflit, un risque de violation du secret ou d’atteinte à l’indépendance.",
+    "points_specifiques": [
+      "Base : RIN, art. 4",
+      "Conséquence : obligation de s’abstenir pour tous les clients concernés (sauf accord écrit des parties dans les limites prévues)"
+    ]
+  },
+  {
+    "question": "Le conflit d’intérêts s’apprécie‑t‑il au niveau de la structure ?",
+    "reponse": "Oui : lorsque des avocats exercent en groupe ou partagent des moyens, les règles relatives aux conflits et au secret s’appliquent à l’ensemble de la structure et à tous ses membres.",
+    "points_specifiques": [
+      "Base : RIN, art. 4 (alinéas relatifs aux structures et mises en commun)",
+      "Inclut partage de moyens"
+    ]
+  },
+  {
+    "question": "Quel est le principe directeur en matière de contradictoire ?",
+    "reponse": "L’avocat doit respecter en toutes circonstances le principe du contradictoire.",
+    "points_specifiques": [
+      "Base : RIN, art. 5",
+      "S’impose dans les échanges et la communication d’éléments"
+    ]
+  },
+  {
+    "question": "Comment l’avocat doit‑il se comporter avec la partie adverse représentée ?",
+    "reponse": "Il s’abstient de tout contact direct au sujet de l’affaire avec une personne dont il sait qu’elle est assistée ou représentée par un autre avocat, sauf accord de ce confrère.",
+    "points_specifiques": [
+      "Base : CCBE 21.5.5 (annexé au RIN)",
+      "Principe de loyauté et de confraternité"
+    ]
+  },
+  {
+    "question": "Que prévoit le RIN en cas de succession d’avocats dans un dossier ?",
+    "reponse": "Les difficultés sur la rémunération de l’avocat initialement saisi ou la restitution des pièces du dossier sont soumises au bâtonnier.",
+    "points_specifiques": [
+      "Base : RIN, art. 9 (passage cité)",
+      "Règlement ordinal compétent"
+    ]
+  },
+  {
+    "question": "Qu’entend‑on par publicité personnelle, information professionnelle et sollicitation personnalisée ?",
+    "reponse": "La publicité personnelle promeut les services de l’avocat ; l’information professionnelle informe sur la profession ; la sollicitation personnalisée est un mode de publicité personnelle adressé directement à une personne déterminée au‑delà de la simple information.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.1",
+      "Terminologie officielle"
+    ]
+  },
+  {
+    "question": "La publicité et la sollicitation personnalisée sont‑elles permises ?",
+    "reponse": "Oui, si elles délivrent une information sincère sur les prestations et respectent les principes essentiels ; la sollicitation prend la forme d’un message, à l’exclusion de toute démarche physique ou téléphonique et des SMS.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.3",
+      "Interdiction de recourir à un tiers pour contourner ces interdictions"
+    ]
+  },
+  {
+    "question": "Quelles mentions minimales doivent figurer dans toute communication de l’avocat ?",
+    "reponse": "Sa qualité, de quoi l’identifier, le localiser, le joindre, le barreau d’inscription, la structure d’exercice et, le cas échéant, le réseau.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.2",
+      "Information sincère requise"
+    ]
+  },
+  {
+    "question": "Combien de domaines d’activités dominantes peuvent être revendiqués en communication ?",
+    "reponse": "Au plus trois, résultant d’une pratique effective et habituelle.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.2 (passage sur domaines dominants)",
+      "Contrôle ordinal : transmission sans délai en cas de communication sur spécialisation/qualifications"
+    ]
+  },
+  {
+    "question": "Quelles règles spécifiques s’appliquent au site internet de l’avocat ?",
+    "reponse": "Information du Conseil de l’Ordre en cas d’ouverture ou de modification substantielle ; nom de domaine comportant le nom ou la dénomination du cabinet ; interdiction des noms de domaine génériques et des bannières publicitaires (hors celles de la profession).",
+    "points_specifiques": [
+      "Base : RIN, art. 10.5",
+      "Vigilance sur les liens hypertextes contraires aux principes essentiels"
+    ]
+  },
+  {
+    "question": "Quelles règles s’appliquent au choix des dénominations (enseigne, marque, nom commercial) ?",
+    "reponse": "La dénomination est un mode de communication ; l’usage de dénominations génériques du titre d’avocat ou pouvant prêter à confusion (domaine du droit, spécialisation) est interdit.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.6",
+      "Lien avec art. 10.2 sur mentions sincères"
+    ]
+  },
+  {
+    "question": "La publicité doit‑elle être transmise à l’Ordre ?",
+    "reponse": "Oui, toute publicité doit être communiquée sans délai au Conseil de l’Ordre.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.3 (in fine)",
+      "Contrôle ordinal"
+    ]
+  },
+  {
+    "question": "Quelles sont les obligations d’information du client en matière d’honoraires ?",
+    "reponse": "Informer dès la saisine des modalités de détermination des honoraires et, régulièrement, de l’évolution de leur montant ainsi que des frais, débours et émoluments possibles.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.1",
+      "Traçabilité de l’information financier-cliente"
+    ]
+  },
+  {
+    "question": "La convention d’honoraires est‑elle obligatoire ?",
+    "reponse": "Oui, par écrit, sauf urgence, force majeure ou aide juridictionnelle totale ou « troisième partie » de la loi de 1991.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.2",
+      "La convention précise le montant ou le mode de détermination (diligences prévisibles, frais, débours)"
+    ]
+  },
+  {
+    "question": "Le pacte de quota litis est‑il autorisé ?",
+    "reponse": "Non, il est interdit de fixer exclusivement l’intégralité des honoraires en fonction du seul résultat judiciaire.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.3",
+      "Interdiction de rémunération d’apports d’affaires"
+    ]
+  },
+  {
+    "question": "L’avocat peut‑il partager des honoraires avec un non‑avocat ?",
+    "reponse": "Non, tout partage d’honoraires avec des personnes non avocats est prohibé.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.4 (partage prohibé)",
+      "Rédaction conjointe d’actes : règles spécifiques entre avocats"
+    ]
+  },
+  {
+    "question": "Quels modes de paiement des honoraires sont admis ?",
+    "reponse": "Espèces, chèque, virement, billet à ordre, carte bancaire ; la lettre de change est possible si acceptée par le client.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.5",
+      "Endossement limité à la banque de l’avocat (encaissement)"
+    ]
+  },
+  {
+    "question": "L’avocat peut‑il demander une provision ?",
+    "reponse": "Oui, préalable et raisonnable au regard des honoraires et débours probables ; à défaut de paiement, il peut se retirer dans les conditions prévues.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.6",
+      "Information au client en cas de retrait"
+    ]
+  },
+  {
+    "question": "Quelles sont les peines disciplinaires encourues en cas de manquement déontologique ?",
+    "reponse": "Avertissement, blâme, interdiction temporaire d’exercice (max. 3 ans), radiation ou retrait de l’honorariat ; des peines complémentaires peuvent être prononcées.",
+    "points_specifiques": [
+      "Base : Décret 1991, art. 184",
+      "Possibilité d’imposer une formation complémentaire en déontologie"
+    ]
+  },
+  {
+    "question": "Quelles obligations LCB‑FT s’imposent aux avocats ?",
+    "reponse": "Mise en place d’une vigilance (identification, vérification, suivi) et déclaration de soupçon aux cas prévus, dans les activités visées par le CMF, selon les lignes directrices de la profession.",
+    "points_specifiques": [
+      "Base : Guide CNB LCB‑FT (dernière version)",
+      "Respect du secret et du périmètre légal d’assujettissement"
+    ]
+  },
+  {
+    "question": "La sollicitation personnalisée doit‑elle comporter une information tarifaire ?",
+    "reponse": "Oui, elle précise les modalités de détermination du coût de la prestation qui fera l’objet d’une convention d’honoraires.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.3",
+      "Lien avec art. 11.2 (convention)"
+    ]
+  },
+  {
+    "question": "Quelles précautions de communication sur réseaux sociaux ?",
+    "reponse": "Respect des principes essentiels ; aucune publicité ou lien vers des contenus contraires aux principes ; vigilance sur l’identification et la loyauté des informations.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.2 et 10.5 (blogs, réseaux sociaux)",
+      "Interdiction des bannières publicitaires tierces sur le site"
+    ]
+  },
+  {
+    "question": "Quelles sont les règles de maniement de fonds par l’avocat ?",
+    "reponse": "Les fonds, effets ou valeurs maniés à titre accessoire d’une opération juridique ou judiciaire doivent être déposés sans délai à la CARPA.",
+    "points_specifiques": [
+      "Base : RIN (règle rappelée) et Décret 1991, Titre VI",
+      "CARPA compétente pour les mouvements et contrôles"
+    ]
+  },
+  {
+    "question": "Peut‑on prélever des honoraires sur un compte CARPA sans accord du client ?",
+    "reponse": "Non, aucun prélèvement d’honoraires au profit de l’avocat ne peut intervenir sans l’autorisation écrite préalable du client.",
+    "points_specifiques": [
+      "Base : Décret 1991, art. 241",
+      "Traçabilité et consentement écrit obligatoires"
+    ]
+  },
+  {
+    "question": "Quels principes gouvernent la comptabilité et les règlements pécuniaires ?",
+    "reponse": "Obligations spécifiques de tenue et d’organisation (comptes, documents) et d’utilisation du circuit CARPA ; interdiction des mouvements non autorisés entre sous‑comptes.",
+    "points_specifiques": [
+      "Base : Décret 1991, art. 229 à 235‑3 (dispositions générales) et art. 236 s. (CARPA)",
+      "Contrôle ordinal et de la CARPA"
+    ]
+  },
+  {
+    "question": "Qu’est‑ce qu’une CARPA et qui la crée ?",
+    "reponse": "Caisse des règlements pécuniaires des avocats créée par délibération du conseil de l’Ordre (ou conjointe de plusieurs Ordres) ; elle centralise et sécurise les fonds maniés par les avocats.",
+    "points_specifiques": [
+      "Base : Décret 1991, art. 236",
+      "Règles de fonctionnement fixées par l’Ordre"
+    ]
+  },
+  {
+    "question": "Quelles sont les règles de collaboration libérale en matière d’indépendance et de clientèle ?",
+    "reponse": "La collaboration doit préserver l’indépendance ; le collaborateur libéral peut constituer et développer une clientèle personnelle, sous réserve des conflits d’intérêts.",
+    "points_specifiques": [
+      "Base : RIN, art. 14.2.1 et 14.2.2.1",
+      "Incompatibilité avec les intérêts contraires d’un client du cabinet"
+    ]
+  },
+  {
+    "question": "Existe‑t‑il des minima de rétrocession pour le collaborateur libéral ?",
+    "reponse": "Oui : pendant les deux premières années, la rétrocession ne peut être inférieure aux minima fixés par le Conseil de l’Ordre ; ensuite, plancher aligné sur la 2e année sauf accord exprès et contrôle ordinal.",
+    "points_specifiques": [
+      "Base : RIN, art. 14.5.1 (rétrocession)",
+      "Règles spécifiques AJ/commission d’office conservées par le collaborateur"
+    ]
+  },
+  {
+    "question": "Quelles exigences matérielles pèsent sur l’établissement d’exercice ?",
+    "reponse": "Conditions matérielles conformes aux usages, respect du secret, justification d’une adresse électronique ; inscription au tableau au lieu du cabinet principal.",
+    "points_specifiques": [
+      "Base : RIN, art. 15.1 et 15.2",
+      "Pluralité d’exercice : pas de dérogation aux règles de postulation"
+    ]
+  },
+  {
+    "question": "Quelles précautions dans les réseaux pluridisciplinaires ?",
+    "reponse": "Le fonctionnement du réseau ne doit pas porter atteinte aux principes essentiels (indépendance, secret, conflits) ni créer de confusion dans l’esprit du public.",
+    "points_specifiques": [
+      "Base : RIN, art. 16 (principes)",
+      "Surveillance des conventions de réseau"
+    ]
+  },
+  {
+    "question": "Quelle règle de base s’applique aux prestations juridiques en ligne ?",
+    "reponse": "Respect des prescriptions du décret du 12 juillet 2005 et de l’article 10 du RIN, notamment les obligations d’information prévues à l’article 10.3.",
+    "points_specifiques": [
+      "Base : RIN, art. 19",
+      "Obligations identiques à la communication hors ligne"
+    ]
+  },
+  {
+    "question": "Quelle est l’obligation d’information sur la médiation de la consommation ?",
+    "reponse": "Informez le client‑consommateur des coordonnées du ou des médiateurs compétents, notamment sur le site et dans la convention d’honoraires.",
+    "points_specifiques": [
+      "Base : Obligation d’information rappelée par le CNB (médiation de la consommation)",
+      "Affichage et mention contractuelle requis"
+    ]
+  },
+  {
+    "question": "Quelles sont les règles de confraternité applicables en Europe (CCBE) ?",
+    "reponse": "Confiance, loyauté, coopération, interdiction de réclamer/verser des commissions de présentation, et respect du secret ; ces règles s’appliquent aux rapports transfrontières.",
+    "points_specifiques": [
+      "Base : CCBE 21.5.1 à 21.5.4 (annexé au RIN)",
+      "Obligation de formation permanente (21.5.8)"
+    ]
+  },
+  {
+    "question": "Que doit faire l’avocat en cas de demande d’honoraires d’un correspondant étranger ?",
+    "reponse": "S’il confie une affaire à un correspondant, il est personnellement tenu au paiement (sauf accord contraire initial) même en cas de défaillance du client.",
+    "points_specifiques": [
+      "Base : CCBE 21.5.7 (annexé au RIN)",
+      "Possibilité de limiter son engagement pour l’avenir par notification"
+    ]
+  },
+  {
+    "question": "Quelles sont les sanctions en cas de violation des règles de maniement de fonds ?",
+    "reponse": "Manquements susceptibles d’engager la responsabilité disciplinaire (et éventuellement civile/pénale) et de donner lieu à des sanctions disciplinaires prévues par le décret.",
+    "points_specifiques": [
+      "Base : Décret 1991, art. 184 (sanctions)",
+      "Règles CARPA : contrôle et traçabilité"
+    ]
+  },
+  {
+    "question": "Un avocat peut‑il recevoir des honoraires d’un tiers autre que son client ?",
+    "reponse": "En principe, l’avocat ne perçoit des honoraires que de son client ou d’un mandataire de celui‑ci.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.3 (in fine)",
+      "Transparence et accord du client"
+    ]
+  },
+  {
+    "question": "Quelles règles encadrent l’usage du nom de domaine du cabinet ?",
+    "reponse": "Le nom de domaine doit comporter le nom de l’avocat ou la dénomination du cabinet, éventuellement accompagné du mot « avocat » ; les noms génériques évoquant le titre, un domaine du droit ou une activité sont interdits.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.5",
+      "Information du Conseil de l’Ordre des noms de domaine"
+    ]
+  },
+  {
+    "question": "Qu’implique la mention « officielle » sur une correspondance entre avocats ?",
+    "reponse": "Elle exclut la confidentialité dans les limites fixées (équivalant à un acte de procédure, ou sans référence à des éléments antérieurs confidentiels) ; ces correspondances peuvent être produites.",
+    "points_specifiques": [
+      "Base : RIN, art. 3.2",
+      "Les autres correspondances restent confidentielles par nature (art. 3.1)"
+    ]
+  },
+  {
+    "question": "Peut‑on contourner les règles de sollicitation via un prestataire marketing ?",
+    "reponse": "Non, l’avocat ne peut recourir aux services d’un tiers pour contourner les interdictions (par ex. démarchage téléphonique).",
+    "points_specifiques": [
+      "Base : RIN, art. 10.3",
+      "Intégrité de la communication"
+    ]
+  },
+  {
+    "question": "Quelles informations un avocat peut‑il mettre en avant dans sa communication ?",
+    "reponse": "Spécialisations et qualifications régulièrement obtenues, domaines d’activités dominantes (max. 3), et missions du RIN (art. 6) ; toutes doivent correspondre à l’avocat personne physique membre de la structure.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.2",
+      "Transmission à l’Ordre en cas de communication sur ces éléments"
+    ]
+  },
+  {
+    "question": "Quelles obligations particulières pèsent sur l’avocat en fiducie ?",
+    "reponse": "Mention expresse de la qualité de fiduciaire, attention au caractère non confidentiel des correspondances à l’égard des organes de contrôle, protection du secret professionnel dans le cadre légal des contrôles.",
+    "points_specifiques": [
+      "Base : RIN, art. 6.5.3 et 6.5.4",
+      "Respect des contrôles sans porter atteinte au secret"
+    ]
+  },
+  {
+    "question": "Quelle règle de base régit les relations entre avocats de barreaux différents en cas de litige déontologique ?",
+    "reponse": "À défaut d’accord de leurs bâtonniers sous 4 semaines, ceux‑ci saisissent le bâtonnier d’un barreau tiers dans les 8 jours.",
+    "points_specifiques": [
+      "Base : RIN, art. 20.1",
+      "Mécanisme de règlement inter‑barreaux"
+    ]
+  },
+  {
+    "question": "Quels sont les éléments pris en compte pour fixer les honoraires ?",
+    "reponse": "Usages, situation de fortune du client, difficulté de l’affaire, frais exposés, notoriété et diligences, importance des intérêts, résultat et service rendu, titres/ancienneté/spécialisation.",
+    "points_specifiques": [
+      "Base : RIN, art. 11.2 (éléments de rémunération)",
+      "Traçabilité dans la convention et la facturation"
+    ]
+  },
+  {
+    "question": "Quelles obligations de l’avocat en matière de documentation LCB‑FT ?",
+    "reponse": "Dispositifs internes proportionnés (cartographie des risques, procédures de vigilance, conservation, gel des avoirs) selon le guide CNB et les textes applicables.",
+    "points_specifiques": [
+      "Base : Guide CNB LCB‑FT (dernière version)",
+      "Références : ANR/ASR et cadre CMF"
+    ]
+  },
+  {
+    "question": "Quelles règles gouvernent l’usage d’encarts publicitaires sur le site de l’avocat ?",
+    "reponse": "Le site ne peut comporter aucun encart ou bannière publicitaire autres que ceux de la profession.",
+    "points_specifiques": [
+      "Base : RIN, art. 10.5",
+      "Vigilance sur les liens hypertextes"
+    ]
+  },
+  {
+    "question": "Quel comportement impose l’article 1 bis (visites de courtoisie) ?",
+    "reponse": "Se présenter aux autorités judiciaires et ordinales (président, ministère public, bâtonnier) et au confrère adverse lorsqu’on plaide hors de son barreau.",
+    "points_specifiques": [
+      "Base : RIN, art. 1 bis",
+      "Règle de courtoisie professionnelle"
+    ]
+  },
+  {
+    "question": "Quelle autorité règle les contestations d’honoraires et débours ?",
+    "reponse": "Le bâtonnier (procédure de taxation), avec recours devant le premier président de la cour d’appel.",
+    "points_specifiques": [
+      "Base : Décret 1991, art. 174 s. (régime de contestation)",
+      "Lien avec RIN, art. 11 (information et convention)"
+    ]
+  },
+  {
+    "question": "Quel est le cadre général d’exercice en association ou société d’avocats ?",
+    "reponse": "Les structures (association/AARPI, SEL, etc.) sont encadrées par le décret 1991 ; les règles déontologiques (secret, conflits, indépendance) s’appliquent à l’ensemble de la structure.",
+    "points_specifiques": [
+      "Base : Décret 1991 (Titre III, exercice de la profession)",
+      "RIN, art. 4 et 15 (application aux structures et moyens)"
+    ]
+  }
+]
